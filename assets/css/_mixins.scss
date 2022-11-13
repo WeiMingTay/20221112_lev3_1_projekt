@@ -1,0 +1,6 @@
+@mixin fontSize($multiplikand) {
+    font-size: 1rem * $multiplikand;
+}
+@mixin transition($time) {
+    transition: all $time ease-in
+}

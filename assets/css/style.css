@@ -1,0 +1,115 @@
+/* Allgemein */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.home {
+  background-image: linear-gradient(55deg, #5bf2fd 10%, #fcc736 10%, #fcc736 20%, #fd5f5f 20%, #fd5f5f 30%, #bb4dfa 30%, #bb4dfa 40%, #5bf2fd 40%, #5bf2fd 50%, #fcc736 50%, #fcc736 60%, #fd5f5f 60%, #fd5f5f 70%, #bb4dfa 70%, #bb4dfa 80%, #5bf2fd 80%, #5bf2fd 90%, #fcc736 90%, #fcc736 100%);
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home #menue {
+  font-size: 2rem;
+}
+.home .ueberschriften {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+.home h1 {
+  font-size: 8rem;
+  transition: all 250ms ease-in;
+}
+.home h1:hover {
+  text-shadow: 0 0 20px #fff;
+}
+.home h1::after {
+  content: "2.";
+  position: relative;
+  right: 2.3rem;
+  top: -5rem;
+  font-size: 4rem;
+  background-color: #fcc736;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+}
+.home h2 {
+  font-size: 3rem;
+}
+.home #logos {
+  font-size: 2rem;
+  text-align: end;
+  margin-right: 1rem;
+}
+.home #logos a {
+  color: #000;
+}
+
+.mainContent {
+  display: flex;
+  height: 90vh;
+}
+.mainContent article {
+  width: calc(50% - 2rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem;
+  align-items: center;
+}
+.mainContent article h4 {
+  font-size: 1.5rem;
+}
+.mainContent img, .mainContent div {
+  width: calc(100% - 10rem);
+}
+.mainContent div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.mainContent div button {
+  font-size: 1.2rem;
+  background-color: #fcc736;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 1rem 5rem;
+}
+
+footer {
+  background-image: linear-gradient(-55deg, #5bf2fd 10%, #fcc736 10%, #fcc736 20%, #fd5f5f 20%, #fd5f5f 30%, #bb4dfa 30%, #bb4dfa 40%, #5bf2fd 40%, #5bf2fd 50%, #fcc736 50%, #fcc736 60%, #fd5f5f 60%, #fd5f5f 70%, #bb4dfa 70%, #bb4dfa 80%, #5bf2fd 80%, #5bf2fd 90%, #fcc736 90%, #fcc736 100%);
+  background-size: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  font-size: 2rem;
+  transition: all 100ms ease-in;
+  background-image: linear-gradient(-55deg, #5bf2fd 25%, #fcc736 25%, #fcc736 50%, #fd5f5f 50%, #fd5f5f 75%, #bb4dfa 75%, #bb4dfa 100%);
+  padding: 0.5rem;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  scale: 0.9;
+  box-shadow: 0 0 10px 1px black;
+}/*# sourceMappingURL=style.css.map */
